@@ -49,6 +49,9 @@ jobs:
           # Capella
           - https://capella.pics
 
+          # CodeX Notes
+          - https://api.notes.codex.so
+
           # CodeX Media sites
           - https://media.codex.so
           - https://school181.ru
