@@ -7,8 +7,8 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
-    name: Check domains
+    runs-on: ubuntu-20.04
+    name: Check
     strategy:
       matrix:
         domain:
