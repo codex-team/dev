@@ -33,7 +33,6 @@ jobs:
 
           # CodeX Tunnel
           - https://tun.codex.so
-          - https://tun.ifmo.su
 
           # Hawk
           - https://hawk.so
