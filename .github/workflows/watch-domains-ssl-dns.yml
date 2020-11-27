@@ -31,9 +31,6 @@ jobs:
           - https://notify.bot.codex.so
           - https://notify.bot.ifmo.su
 
-          # CodeX Tunnel
-          - https://tun.codex.so
-
           # Hawk
           - https://hawk.so
           #   Hawk 2 beta
