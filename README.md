@@ -1,6 +1,6 @@
 # Dev
 
-Repository for regular automated tasks.
+Repository for regular automated tasks
 
 ## Tasks 
 
