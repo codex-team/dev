@@ -37,7 +37,7 @@ jobs:
           - https://beta.hawk.so
           - https://api.beta.hawk.so
           - https://k1.hawk.so
-	  - https://1234567890.k1.hawk.so
+          - https://1234567890.k1.hawk.so
           #   Hawk 2 stage
           - https://stage.hawk.so
           - https://api.stage.hawk.so
