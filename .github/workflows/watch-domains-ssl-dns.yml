@@ -33,15 +33,16 @@ jobs:
 
           # Hawk
           - https://hawk.so
-          #   Hawk 2 beta
-          - https://beta.hawk.so
-          - https://api.beta.hawk.so
+          - https://garage.hawk.so
+          - https://api.hawk.so
           - https://k1.hawk.so
           - https://1234567890.k1.hawk.so
-          #   Hawk 2 stage
+          
+          # Hawk stage
           - https://stage.hawk.so
+          - https://garage.stage.hawk.so
           - https://api.stage.hawk.so
-          - https://k1.stage.hawk.so
+          - https://1234567890.stage-k1.hawk.so
 
           # Capella
           - https://capella.pics
