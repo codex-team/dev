@@ -5,11 +5,40 @@ on:
     # Run this workflow at 11:00 UTC+3
     - cron:  '0 8 * * *'
 
+env:
+  BRANCH: 'master'
+#  BRANCH: ${GITHUB_REF##*/}
+
 jobs:
+  recreate-doc:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ env.BRANCH }}
+
+      - name: Recreate document
+        run: |
+          rm -rf README.md
+          cp README.template.md README.md
+          echo "" >> README.md
+          echo "## Sites" >> README.md
+          echo "" >> README.md
+          echo "| Domain | SSL | SSL expires | Paid | Paid till |" >> README.md
+          echo "| - | - | - | - | - |" >> README.md
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'Recreate sites file'
+
   check:
     runs-on: ubuntu-20.04
     name: Check
+    needs: [recreate-doc]
     strategy:
+      max-parallel: 1
       matrix:
         domain:
           # CodeX site
@@ -33,11 +62,12 @@ jobs:
 
           # Hawk
           - https://hawk.so
+          - https://docs.hawk.so
           - https://garage.hawk.so
           - https://api.hawk.so
           - https://k1.hawk.so
           - https://1234567890.k1.hawk.so
-          
+
           # Hawk stage
           - https://stage.hawk.so
           - https://garage.stage.hawk.so
@@ -50,16 +80,36 @@ jobs:
           # CodeX Notes
           - https://api.notes.codex.so
 
+          # CodeX Task Manager
+          - https://team.codex.so
+
           # CodeX Media sites
           - https://media.codex.so
           - https://school181.ru
           - https://school332.ru
     steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ env.BRANCH }}
+
       - name: Check domain SSL and registry expire date
         id: check-domain
         uses: codex-team/action-check-domain@v1.1
         with:
           url: ${{ matrix.domain }}
+
+      - run: echo 'SSL cert has ${{ steps.check-domain.outputs.ssl-expire-days-left }} days left'
+      - run: echo 'Paid ${{ steps.check-domain.outputs.ssl-expire-days-left }} days left'
+
+      - name: Add site info
+        run: |
+          echo "| ${{ matrix.domain }} | ${{ fromJSON('["", "🧨"]')[!steps.check-domain.outputs.ssl-expire-days-left && steps.check-domain.outputs.ssl-expire-days-left < 10] }} | ${{ steps.check-domain.outputs.ssl-expire-date }} | ${{ fromJSON('["", "⚠️"]')[steps.check-domain.outputs.paid-till-days-left && steps.check-domain.outputs.paid-till-days-left < 10] }} | ${{ steps.check-domain.outputs.paid-till-date }} |" >> README.md
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'Add info for ${{ matrix.domain }}'
 
       - name: Create an issue if paid till number is below limit
         if: ${{ steps.check-domain.outputs.paid-till-days-left && steps.check-domain.outputs.paid-till-days-left < 10 }}
@@ -76,3 +126,24 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: 🧨 ${{ matrix.domain }} — SSL cert expires in ${{ steps.check-domain.outputs.ssl-expire-days-left }} days
           body: 'Valid till: `${{ steps.check-domain.outputs.ssl-expire-date }}`'
+
+
+  save:
+    if: ${{ always() }}
+    needs: [recreate-doc, check]
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ env.BRANCH }}
+
+      - name: Recreate document
+        run: |
+          echo "" >> README.md
+          echo "Updated at $(date +'%Y-%m-%d %H:%M:%S') UTC" >> README.md
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'Add datetime for last update'
