@@ -103,7 +103,7 @@ jobs:
 
       - name: Add site info
         run: |
-          echo "| ${{ matrix.domain }} | ${{ fromJSON('["", "🧨"]')[!steps.check-domain.outputs.ssl-expire-days-left && steps.check-domain.outputs.ssl-expire-days-left < 10] }} | ${{ steps.check-domain.outputs.ssl-expire-date }} | ${{ fromJSON('["", "⚠️"]')[steps.check-domain.outputs.paid-till-days-left && steps.check-domain.outputs.paid-till-days-left < 10] }} | ${{ steps.check-domain.outputs.paid-till-date }} |" >> README.md
+          echo "| ${{ matrix.domain }} | ${{ fromJSON('["", "🧨"]')[!steps.check-domain.outputs.ssl-expire-days-left || steps.check-domain.outputs.ssl-expire-days-left < 10] }} | ${{ steps.check-domain.outputs.ssl-expire-date }} | ${{ fromJSON('["⚠️", ""]')[steps.check-domain.outputs.paid-till-days-left < 10] }} | ${{ steps.check-domain.outputs.paid-till-date }} |" >> README.md
 
       - uses: EndBug/add-and-commit@v7
         with:
