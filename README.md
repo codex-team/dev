@@ -25,3 +25,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://docs.hawk.so |  | Wed Mar 30 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://garage.hawk.so |  | Wed Mar 30 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://api.hawk.so |  | Wed Mar 30 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
+| https://k1.hawk.so |  | Sun Feb 20 2022 05:21:31 GMT+0000 (Coordinated Universal Time) |  |  |
