@@ -13,3 +13,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | Domain | SSL | SSL expires | Paid | Paid till |
 | - | - | - | - | - |
 | https://codex.so |  | Sun Nov 13 2022 23:59:59 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Dec 18 2022 10:47:03 GMT+0000 (Coordinated Universal Time) |
+| https://ifmo.su | 🧨 | Sun Jan 09 2022 07:27:57 GMT+0000 (Coordinated Universal Time) | ⚠️ | Fri Mar 25 2022 19:00:16 GMT+0000 (Coordinated Universal Time) |
