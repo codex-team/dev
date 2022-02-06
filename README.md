@@ -29,3 +29,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://1234567890.k1.hawk.so |  | Tue Apr 19 2022 05:03:23 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://stage.hawk.so |  | Wed Mar 30 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://garage.stage.hawk.so |  | Thu May 05 2022 08:00:18 GMT+0000 (Coordinated Universal Time) |  |  |
+| https://api.stage.hawk.so |  | Thu May 05 2022 08:00:01 GMT+0000 (Coordinated Universal Time) |  |  |
