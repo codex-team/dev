@@ -33,3 +33,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://1234567890.stage-k1.hawk.so |  | Mon Jul 04 2022 15:59:35 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://capella.pics |  | Mon Jul 25 2022 08:27:16 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://api.notes.codex.so | 🧨 |  |  |  |
+| https://team.codex.so |  | Sun Nov 13 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
