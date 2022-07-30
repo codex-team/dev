@@ -33,3 +33,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://capella.pics |  | Mon Oct 17 2022 07:36:04 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Nov 26 2022 13:30:27 GMT+0000 (Coordinated Universal Time) |
 | https://api.notes.codex.so |  | Fri Oct 07 2022 07:57:22 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://team.codex.so |  | Sun Nov 13 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
+| https://media.codex.so |  | Sun Nov 13 2022 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
