@@ -69,7 +69,7 @@ jobs:
           - https://1234567890.k1.hawk.so
 
           # Hawk stage
-          - https://stage.hawk.so
+#           - https://stage.hawk.so
           - https://garage.stage.hawk.so
           - https://api.stage.hawk.so
 #           - https://1234567890.stage-k1.hawk.so
