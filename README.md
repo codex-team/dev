@@ -19,3 +19,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://bot.codex.so | 🧨 |  |  |  |
 | https://github.bot.codex.so |  | Mon Oct 31 2022 08:05:41 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://github.bot.ifmo.su | 🧨 |  |  |  |
+| https://notify.bot.codex.so |  | Mon Oct 31 2022 08:02:25 GMT+0000 (Coordinated Universal Time) |  |  |
