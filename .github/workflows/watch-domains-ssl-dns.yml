@@ -85,7 +85,6 @@ jobs:
 
           # CodeX Media sites
           - https://media.codex.so
-          - https://school181.ru
           - https://school332.ru
     steps:
       - uses: actions/checkout@v2
