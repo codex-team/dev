@@ -22,3 +22,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://notify.bot.codex.so |  | Mon Oct 31 2022 08:02:25 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://notify.bot.ifmo.su | 🧨 |  |  |  |
 | https://hawk.so |  | Mon Dec 12 2022 13:23:51 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Jun 17 2023 00:00:00 GMT+0000 (Coordinated Universal Time) |
+| https://docs.hawk.so |  | Tue Feb 28 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
