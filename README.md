@@ -34,3 +34,5 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://team.codex.so |  | Sat Oct 14 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://media.codex.so |  | Sat Oct 14 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://school332.ru |  | Tue Jan 31 2023 08:04:34 GMT+0000 (Coordinated Universal Time) | ⚠️ | Wed Mar 01 2023 13:13:57 GMT+0000 (Coordinated Universal Time) |
+
+Updated at 2022-11-03 08:38:52 UTC
