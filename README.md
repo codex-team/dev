@@ -15,3 +15,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://codex.so |  | Sat Oct 14 2023 23:59:59 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Dec 18 2022 10:47:03 GMT+0000 (Coordinated Universal Time) |
 | https://ifmo.su |  | Fri Jan 13 2023 14:21:30 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Mar 25 2023 19:00:16 GMT+0000 (Coordinated Universal Time) |
 | https://editorjs.io |  | Sun Jan 15 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
+| https://docs.codex.so |  | Sat Oct 14 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
