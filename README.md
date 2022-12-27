@@ -17,3 +17,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://editorjs.io |  | Thu Mar 16 2023 00:22:01 GMT+0000 (Coordinated Universal Time) | ⚠️ | Wed Oct 04 2023 14:59:28 GMT+0000 (Coordinated Universal Time) |
 | https://docs.codex.so |  | Sat Oct 14 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://bot.codex.so | 🧨 |  |  |  |
+| https://github.bot.codex.so |  | Sat Mar 25 2023 15:16:41 GMT+0000 (Coordinated Universal Time) |  |  |
