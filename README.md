@@ -16,3 +16,5 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://ifmo.su |  | Mon Mar 13 2023 18:25:30 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Mar 25 2023 19:00:16 GMT+0000 (Coordinated Universal Time) |
 
 Updated at 2023-01-13 08:27:31 UTC
+
+Updated at 2023-01-14 08:23:33 UTC
