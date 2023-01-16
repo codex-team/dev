@@ -41,51 +41,15 @@ jobs:
       max-parallel: 1
       matrix:
         domain:
-          # CodeX site
           - https://codex.so
           - https://ifmo.su
-
-          # Editor.js
           - https://editorjs.io
-
-          # Private docs
-          - https://docs.codex.so
-
-          # CodeX Bot structure
-          - https://bot.codex.so
-          #   Github app
-          - https://github.bot.codex.so
-          - https://github.bot.ifmo.su
-          #   Notify app
-          - https://notify.bot.codex.so
-          - https://notify.bot.ifmo.su
-
-          # Hawk
           - https://hawk.so
-          - https://docs.hawk.so
-          - https://garage.hawk.so
-          - https://api.hawk.so
-          - https://k1.hawk.so
-          - https://1234567890.k1.hawk.so
-
-          # Hawk stage
-#           - https://stage.hawk.so
-#           - https://garage.stage.hawk.so
-#           - https://api.stage.hawk.so
-#           - https://1234567890.stage-k1.hawk.so
-
-          # Capella
           - https://capella.pics
-
-          # CodeX Notes
-          - https://api.notes.codex.so
-
-          # CodeX Task Manager
-          - https://team.codex.so
-
+          
           # CodeX Media sites
-          - https://media.codex.so
           - https://school332.ru
+          - https://school181.ru
     steps:
       - uses: actions/checkout@v2
         with:
