@@ -16,3 +16,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://ifmo.su |  | Wed Sep 06 2023 21:40:02 GMT+0000 (Coordinated Universal Time) | ⚠️ | Mon Mar 25 2024 19:00:16 GMT+0000 (Coordinated Universal Time) |
 | https://editorjs.io |  | Sun Aug 27 2023 19:16:21 GMT+0000 (Coordinated Universal Time) |  |  |
 | https://hawk.so |  | Sat Aug 05 2023 21:37:03 GMT+0000 (Coordinated Universal Time) | ⚠️ | Mon Jun 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time) |
+| https://capella.pics |  | Fri Feb 09 2024 23:59:59 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Nov 26 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |
