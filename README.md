@@ -19,3 +19,5 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://capella.pics |  | Fri Feb 09 2024 23:59:59 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Nov 26 2023 23:59:59 GMT+0000 (Coordinated Universal Time) |
 | https://school332.ru | 🧨 |  | ⚠️ | Fri Mar 01 2024 13:13:57 GMT+0000 (Coordinated Universal Time) |
 | https://school181.ru |  | Mon Dec 25 2023 14:18:41 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Sep 14 2024 19:12:44 GMT+0000 (Coordinated Universal Time) |
+
+Updated at 2023-10-25 08:27:52 UTC
