@@ -18,3 +18,5 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://hawk.so |  | Fri May 30 2025 04:31:29 GMT+0000 (Coordinated Universal Time) | ⚠️ | Tue Jun 17 2025 00:00:00 GMT+0000 (Coordinated Universal Time) |
 | https://school332.ru |  | Fri Jun 20 2025 18:55:35 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Mar 01 2026 13:13:57 GMT+0000 (Coordinated Universal Time) |
 | https://school181.ru |  | Fri Jun 20 2025 18:01:06 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Sep 14 2025 19:12:44 GMT+0000 (Coordinated Universal Time) |
+
+Updated at 2025-03-24 08:33:09 UTC
