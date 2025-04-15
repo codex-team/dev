@@ -42,7 +42,6 @@ jobs:
       matrix:
         domain:
           - https://codex.so
-          - https://ifmo.su
           - https://editorjs.io
           - https://hawk.so
           
