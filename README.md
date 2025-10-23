@@ -15,3 +15,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://codex.so |  | Sun Jan 18 2026 16:26:32 GMT+0000 (Coordinated Universal Time) | ⚠️ | Fri Dec 18 2026 10:47:03 GMT+0000 (Coordinated Universal Time) |
 | https://editorjs.io |  | Sun Nov 23 2025 10:52:44 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Oct 03 2026 21:00:00 GMT+0000 (Coordinated Universal Time) |
 | https://hawk.so |  | Sun Nov 23 2025 13:26:18 GMT+0000 (Coordinated Universal Time) | ⚠️ | Wed Jun 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time) |
+| https://school332.ru |  | Fri Dec 19 2025 17:57:40 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Mar 01 2026 13:13:57 GMT+0000 (Coordinated Universal Time) |
