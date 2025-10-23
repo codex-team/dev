@@ -13,3 +13,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | Domain | SSL | SSL expires | Paid | Paid till |
 | - | - | - | - | - |
 | https://codex.so |  | Sun Jan 18 2026 16:26:32 GMT+0000 (Coordinated Universal Time) | ⚠️ | Fri Dec 18 2026 10:47:03 GMT+0000 (Coordinated Universal Time) |
+| https://editorjs.io |  | Sun Nov 23 2025 10:52:44 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sat Oct 03 2026 21:00:00 GMT+0000 (Coordinated Universal Time) |
