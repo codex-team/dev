@@ -12,5 +12,3 @@ Task for checking SSL cert and registry expire date for our projects domains.
 
 | Domain | SSL | SSL expires | Paid | Paid till |
 | - | - | - | - | - |
-
-Updated at 2026-01-02 08:38:23 UTC
