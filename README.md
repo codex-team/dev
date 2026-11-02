@@ -16,3 +16,4 @@ Task for checking SSL cert and registry expire date for our projects domains.
 | https://editorjs.io |  | Mon Jan 11 2027 00:27:51 GMT+0000 (Coordinated Universal Time) | ⚠️ | Sun Oct 03 2027 21:00:00 GMT+0000 (Coordinated Universal Time) |
 | https://hawk.so |  | Mon Jan 11 2027 15:35:37 GMT+0000 (Coordinated Universal Time) | ⚠️ | Thu Jun 17 2027 00:00:00 GMT+0000 (Coordinated Universal Time) |
 | https://school332.ru |  | Tue Dec 15 2026 13:44:06 GMT+0000 (Coordinated Universal Time) | ⚠️ | Mon Mar 01 2027 13:13:57 GMT+0000 (Coordinated Universal Time) |
+| https://school181.ru |  | Thu Dec 17 2026 13:37:42 GMT+0000 (Coordinated Universal Time) | ⚠️ | Tue Sep 14 2027 19:12:44 GMT+0000 (Coordinated Universal Time) |
